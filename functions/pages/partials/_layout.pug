@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        script(type="module", src="js/Example.component.js")
+        title= title
+        // Tailwind must be commented out in production
+        //link(rel="stylesheet", href="css/tailwind.css")
+        link(rel="stylesheet", href="css/style.css")
+    body
+        include _header
+        block body
+        include _footer
+
+        // Scripts
+        script(src="js/script.js")
+        block scripts

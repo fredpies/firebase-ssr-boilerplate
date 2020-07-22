@@ -1,0 +1,25 @@
+{
+  "name": "svelte-web-components",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production rollup -c -w src",
+    "watch": "cross-env NODE_ENV=development rollup -c -w src"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "cross-env": "^7.0.2",
+    "rollup": "^2.22.2",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "postcss-scss": "^2.1.1",
+    "rollup-plugin-serve": "^1.0.3",
+    "svelte-preprocess": "^4.0.8",
+    "tailwindcss": "^1.5.2"
+  }
+}
