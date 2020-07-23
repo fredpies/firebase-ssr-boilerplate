@@ -6,7 +6,7 @@
 
     svelte:options(tag="example-component")
     .example
-        h1 This is custom component : "{name}"
+        h1 This is custom component "{name}"
         slot
 
 </template>
